@@ -78,7 +78,7 @@ def gen_img_plot(model, test_input):
         plt.axis('off')
     plt.show()
     plt.ioff()
-test_input  = torch.randn(16, 100, device = device) #16个长度为00
+test_input  = torch.randn(16, 100, device = device) #16个长度为100
 
 #GAN的训练
 D_loss = []
