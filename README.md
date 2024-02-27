@@ -1,0 +1,1 @@
+#一个eopoch是全数据集。每个epoch都会训练到全部的数据，一个epoch训练的次数count=完整数据集数量/batchsize
